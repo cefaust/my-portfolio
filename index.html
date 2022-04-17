@@ -1,122 +1,108 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Square+Peg&family=Yanone+Kaffeesatz:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+  </head>
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./assets/css/style.css">
-    <title>My Portfolio
-    </title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Square+Peg&display=swap" rel="stylesheet">
-</head>
-
-<body>
+  <body>
     <header class="header">
-        <h1 class="header-chlid1">Christopher <br> Faust
-        </h1>
-        <div class="header-img">
-            <img src="./assets/images/Chris.jpeg" alt="Me">
-        </div>
-        <nav class="header-nav">
-            <ul>
-                <li>
-                    <a href="#About-Me">About Me</a>
-                </li>
-                <li>
-                    <a href="#My-Work">My Work</a>
-                </li>
-                <li>
-                    <a href="#Contact-Me">Contact Me</a>
-                </li>
-            </ul>
-
-
-        </nav>
+      <h1 class="header-chlid1">
+        Christopher Faust
+      </h1>
+      <nav class="header-nav">
+        <ul>
+          <li>
+            <a href="#About-Me">About Me</a>
+          </li>
+          <li>
+            <a href="#My-Work">My Work</a>
+          </li>
+          <li>
+            <a href="#Contact-Me">Contact Me</a>
+          </li>
+        </ul>
+      </nav>
     </header>
 
     <main>
-        <section id="About-Me" class="aboutme-container">
-            <aside class="category">
-                <h2>
-                    About Me
-                <div class="header-img">
-                    <img src="./assets/images/Chris.jpeg" alt="Me">
-                </div>
-                </h2>
-
-            </aside>
-            <section class="aboutme2">
-                <p>Hi, I am a Full stack developer. I want to learn new things everyday now matter how small. What i
-                    love most about programing is the challenge that everyday
-                    brings.
-                </p>
-            </section>
-          
-
+      <section id="About-Me" class="aboutme-container">
+        <aside class="category">
+          <h2>
+            About Me
+            <div class="aboutme-img">
+              <img src="./assets/images/Chris.jpeg" alt="Me" />
+            </div>
+          </h2>
+        </aside>
+        <section class="aboutme2">
+          <p>
+            Hi, I am a Full stack developer. I want to learn new things everyday
+            now matter how small. What I love most about programing is the
+            challenge that everyday brings.
+          </p>
         </section>
+      </section>
 
-        <section>
-            <aside class="category">
-                <h2>
-                    Work
-                </h2>
-            </aside>
+      <section id="My-Work">
+        <aside class="category">
+          <h2>Work</h2>
+        </aside>
 
-            <section class="mywork-project-list">
-                <div class="cards">
-                    <a class="card" id="refactoring-project" href="https://cefaust.github.io/Homework-Wk1-Refactoring/">
-                            <header>Refactoring</header>
-                    </a>
+        <section class="mywork-project-list">
+          <div class="cards">
+            <a
+              class="card"
+              id="refactoring-project"
+              href="https://cefaust.github.io/Homework-Wk1-Refactoring/"
+            >
+              <header>Refactoring</header>
+            </a>
 
-                    <a  class="card" href="#">
-                        <header>Project 2</header>
-                    </a>
-                    <section class="card">
-                        <header>Project 3</header>
-                    </section>
-                    <section class="card">
-                        <header>Project 4</header>
-                    </section>
-                    <section class="card">
-                        <header>Project 5</header>
-                    </section>
-                </div>
+            <a class="card" href="#">
+              <header>Project 2</header>
+            </a>
+            <section class="card">
+              <header>Project 3</header>
             </section>
-
-        </section>
-
-        <section id="Contact-Me" class="contactme-container">
-            <aside class="category">
-
-                <h2>
-                    Contact Me
-                </h2>
-            </aside>
-            <section class="contactme-list">
-                <ul>
-                    <li>
-                        555-555-5555
-                    </li>
-                    <li>
-                        <a href="https://www.linkedin.com/in/christopher-faust-348b89233">LinkedIn<img src="./assets/images/linkedin.png"></a>
-                    </li>
-                    <li>
-                        <a href="https://github.com/">GitHub<img src="./assets/images/github.png" alt="Github">
-                        </a>
-                    </li>
-                    
-                </ul>
+            <section class="card">
+              <header>Project 4</header>
             </section>
-
-
-
+            <section class="card">
+              <header>Project 5</header>
+            </section>
+          </div>
         </section>
+      </section>
 
+      <section id="Contact-Me" class="contactme-container">
+        <aside class="category">
+          <h2>Contact Me</h2>
+        </aside>
+        <section class="contactme-list">
+          <ul>
+            <li>555-555-5555</li>
+            <li>
+              <a href="https://www.linkedin.com/in/christopher-faust-348b89233"
+                >LinkedIn<img src="./assets/images/linkedin.png"
+              /></a>
+            </li>
+            <li>
+              <a href="https://github.com/"
+                >GitHub<img src="./assets/images/github.png" alt="Github" />
+              </a>
+            </li>
+          </ul>
+        </section>
+      </section>
     </main>
-
-</body>
-
-
+  </body>
 </html>
