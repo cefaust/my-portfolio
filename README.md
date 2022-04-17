@@ -16,4 +16,4 @@
 
 ![Working portfolio](./assets/images/my-portfolio.gif)
 
-[Github pages] ()
+[Github pages](https://cefaust.github.io/my-portfolio/)
