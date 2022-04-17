@@ -14,6 +14,6 @@
 
 5. When clicking on image it will take user to developed work.
 
-![Working portfolio] ()
+![Working portfolio](./assets/images/my-portfolio.gif)
 
 [Github pages] ()
