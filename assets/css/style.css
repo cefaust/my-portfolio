@@ -130,9 +130,77 @@ main>section {
 
 }
 
+.mywork-project-list {
+    flex: 1 85%;
+    color: var(--common-text-color);
+    transition: flex-basis 500ms linear;
+    text-align: center;
+
+}
+
+.mywork-project-list .cards {
+    display: flex;
+    flex-wrap: wrap;
+}
 
 
 
+.mywork-project-list .card {
+    background-image: url(../../assets/images/placeholder.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-width: 200px;
+    min-height: 200px;
+    position: relative;
+    transition: all 0.75s ease-in-out;
+    margin-bottom:  8px;
+    margin-right: 5px;
+}
+
+.mywork-project-list .card:hover {
+    /* filter: saturate(2.2); */
+        filter: hue-rotate(180deg);
+
+}
+
+.mywork-project-list .cards .card:first-child {
+    width: 100%;
+    height: 400px;
+}
+
+.mywork-project-list .cards .card:not(:first-child) {
+    flex: 1 45%;
+}
+
+.card#life-planner {
+    background-image: url(../../assets/images/projects/Life_Planner_proj.png);
+}
+
+.card#weather-dashboard {
+     background-image: url(../../assets/images/projects/weather_Dashboard_proj.png);
+ }
+
+.card#work-day-scheduler {
+    background-image: url(../../assets/images/projects/Work_day_scheduler_proj.png);
+}
+
+.card#password-generator {
+    background-image: url(../../assets/images/projects/password_generator_proj.png);
+}
+
+.card#code-quiz {
+    background-image: url(../../assets/images/projects/code_quiz.png);
+}
+
+
+.mywork-project-list .cards header {
+    color: var(--common-text-color);
+    position: absolute;
+    padding: 15px;
+    background-color: rgba(52, 52, 52, 0.85);
+    font-weight: bold;
+}
 
 @media screen and (max-width: 567px) {
     header {
@@ -155,74 +223,25 @@ main>section {
 
     .aboutme1 h2 {
         text-align: center;
-       
+    }
+    .mywork-project-list .cards .card:not(:first-child) {
+        flex: 1 55%;
+    }
 
+    #my-work .category {
+        flex: 1 100%;
     }
 
 
 }
 
+/*@media screen and (max-width: 600px){*/
+/*    .mywork-project-list .cards .card:not(:first-child) {*/
+/*        flex: 1 50%;*/
+/*    }*/
 
+/*    #my-work .category {*/
+/*        flex: 1 100%;*/
+/*    }*/
 
-
-
-
-
-
-.mywork-project-list {
-    flex: 1 85%;
-    color: var(--common-text-color);
-    transition: flex-basis 500ms linear;
-    text-align: center;
-
-}
-
-.mywork-project-list .cards {
-    display: flex;
-    flex-wrap: wrap;
-    
-}
-
-
-
-.mywork-project-list .card {
-    background-image: url(../../assets/images/placeholder.jpeg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    min-width: 200px;
-    min-height: 200px;
-    position: relative;
-    transition: all 0.75s ease-in-out;
-    
-}
-
-.mywork-project-list .card:hover {
-    /* filter: saturate(2.2); */
-        filter: hue-rotate(180deg);
-
-}
-
-.mywork-project-list .cards .card:first-child {
-    width: 100%;
-    height: 400px;
-}
-
-.mywork-project-list .cards .card:not(:first-child) {
-    flex: 1 50%;
-}
-
-.card#refactoring-project {
-    background-image: url(../../assets/images/projects/Code_Refactoring_proj.png);
-}
-
-.mywork-project-list .cards header {
-    color: var(--common-text-color);
-    position: absolute;
-    padding: 15px;
-    background-color: rgba(52, 52, 52, 0.85);
-    font-weight: bold;
-
-
-
-}
+/*}*/
