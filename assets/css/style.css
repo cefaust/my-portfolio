@@ -212,8 +212,6 @@ main>section {
     h1 {
         width: 100%;
     }
-
-
     .aboutme1 {
         width: 100%;
         text-align: center;
@@ -235,13 +233,3 @@ main>section {
 
 }
 
-/*@media screen and (max-width: 600px){*/
-/*    .mywork-project-list .cards .card:not(:first-child) {*/
-/*        flex: 1 50%;*/
-/*    }*/
-
-/*    #my-work .category {*/
-/*        flex: 1 100%;*/
-/*    }*/
-
-/*}*/
