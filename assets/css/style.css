@@ -202,6 +202,10 @@ main>section {
     font-weight: bold;
 }
 
+.nowrap-children > * {
+    white-space: nowrap;
+}
+
 @media screen and (max-width: 567px) {
     header {
         width: 100%;
